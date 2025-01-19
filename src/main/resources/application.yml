@@ -6,9 +6,9 @@ spring:
       server:
         git:
           uri: https://github.com/assokush/configServer
-          searchPaths: ConfigDataNew
-        native:
-          searchLocations: classpath:offline-repository/
+          searchPaths: ConfigData
+      #  native:
+      #    searchLocations: classpath:/home/seyi/Documents/configserver/
 
 server:
   port: 8001
